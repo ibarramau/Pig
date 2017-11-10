@@ -1,30 +1,29 @@
-Unbreakable Union of freeborn Republics,
-Great Russia has welded forever to stand.
-Created in struggle by will of the people,
-United and mighty, our Soviet land!
+“All animals are equal, but some animals are more equal than others.” 
+― George Orwell, Animal Farm
+ 
+ “The creatures outsidelooked from pig to man, and from man to pig, and from pig to man again; but already it was impossible to say which was which.” 
+― George Orwell, Animal Farm
 
-Sing to the Motherland, home of the free,
-Bulwark of peoples in brotherhood strong.
-O Party of Lenin, the strength of the people,
-To Communism's triumph lead us on!
+“Man is the only creature that consumes without producing. He does not give milk, he does not lay eggs, he is too weak to pull the plough, he cannot run fast enough to catch rabbits. Yet he is lord of all the animals. He sets them to work, he gives back to them the bare minimum that will prevent them from starving, and the rest he keeps for himself.” 
+― George Orwell, Animal Farm
 
-Through tempests the sunrays of freedom have cheered us,
-Along the new path where great Lenin did lead.
-To a righteous cause he raised up the peoples,
-Inspired them to labour and valourous deed.
+“Four legs good, two legs bad.” 
+― George Orwell, Animal Farm
 
-Sing to the Motherland, home of the free,
-Bulwark of peoples in brotherhood strong.
-O Party of Lenin, the strength of the people,
-To Communism's triumph lead us on!
+“The only good human being is a dead one.” 
+― George Orwell, Animal Farm
 
-In the victory of Communism's immortal ideal,
-We see the future of our dear land.
-And to her fluttering scarlet banner,
-Selflessly true we always shall stand!
+“Several of them would have protested if they could have found the right arguments.” 
+― George Orwell, Animal Farm
 
-Sing to the Motherland, home of the free,
-Bulwark of peoples in brotherhood strong.
-O Party of Lenin, the strength of the people,
-To Communism's triumph lead us on!
+“No one believes more firmly than Comrade Napoleon that all animals are equal. He would be only too happy to let you make your decisions for yourselves. But sometimes you might make the wrong decisions, comrades, and then where should we be?” 
+― George Orwell, Animal Farm
 
+“This work was strictly voluntary, but any animal who absented himself from it would have his rations reduced by half.” 
+― George Orwell, Animal Farm
+
+“Let's face it: our lives are miserable, laborious, and short.” 
+― George Orwell, Animal Farm
+
+“Man serves the interests of no creature except himself.” 
+― George Orwell, Animal Farm
