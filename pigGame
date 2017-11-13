@@ -1,3 +1,4 @@
+package altpig;
 import java.util.Scanner;
 public class pigGame {
 
@@ -31,10 +32,10 @@ public static void play() {
   System.out.println(); //page break
   
   if (player1score > player2score) {
-  System.out.println(player1name+" won with "+player1score+" points.");
+  System.out.println(player1name+" won the game with "+player1score+" points!");
   }
   else if (player1score < player2score) {
-  System.out.println(player2name+" won with "+player2score+" points.");
+  System.out.println(player2name+" won the game with "+player2score+" points!");
   }
   else {
   System.out.println(player1name+" and "+player2name+ "tied with"+ player2score+" points.");
