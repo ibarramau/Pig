@@ -1,4 +1,3 @@
-package altpig;
 import java.util.Scanner;
 public class pigGame {
 
