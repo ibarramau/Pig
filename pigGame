@@ -69,7 +69,6 @@ public static void play() {
   }
   
   turnScore += randomRoll;
-   
   System.out.println(playerName+" has "+turnScore+" on this turn so far");//says turnscore
   
   System.out.println("Does "+playerName+" want to roll again [y/n]?");
@@ -85,11 +84,8 @@ public static void play() {
   else {
     wantsToRoll = false;
    }
-  
-  }
-  
+  }  
   System.out.println("\n"+playerName+ " finished the turn with "+ turnScore);
    return turnScore;     
-  }
- 
+  } 
 }
