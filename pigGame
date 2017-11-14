@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class pigGame {
 
- public static Scanner s = new Scanner(System.in); //Scanner for whole program
+public static Scanner s = new Scanner(System.in); //Scanner for whole program
 
- public static void main(String[] args) {
+public static void main(String[] args) {
   play();
  }
   
@@ -12,8 +12,10 @@ public static void play() {
     System.out.println("Here are the rules of the game");
     System.out.println("\nNeed to pass the time? Grab a die and play some Pig. The game play \nis as follows: a player will roll the 6-sided die. If a one is rolled, the \nplayer busts and the play moves to the next player, without adding \nany points to his/her score. Otherwise, the current roll value is added \nto a running total and the player may choose to roll again (to \ncontinue adding to the running total) or they may hold (keep the \ncurrent running total and add it to their overall score). Note that a \nplayer only adds points to their score if they choose to hold on \nparticular turn. That means, if a player has a running total of 15, but \nrolls a 1 next, that player loses the 15 points built up in that set of \nrolls and no additional points are added to his/her overall score. A \nplayer wins when they have earned 100 or more points. In a case \nwhere player 1 hits 100 first, then let player 2 have a turn to try and \ntie or win. If they both are over 100, the higher score wins!" );
  
-    String player1name = promptPlayerOneName(); //asks players for their names
-    String player2name = promptPlayerTwoName();
+    System.out.println("\nEnter player one's name");
+    String player1name = s.nextLine(); //asks players for their names
+    System.out.println("\nEnter player two's name");
+    String player2name = s.nextLine();
     int player1score = 0; //initializes score as zero
     int player2score = 0;
     while (player1score < 100 && player2score < 100) { //keeps playing until a score reaches 100
@@ -22,12 +24,12 @@ public static void play() {
     player1score += player1turnscore; //adds turn to total
     int player2turnscore = playerTurn(player2name);
     player2score += player2turnscore; //adds turn to total
-
     }
     printPigResults(player1name, player1score, player2name, player2score); //after someone wins, 
+    playAgain();
 }
 
- private static void printPigResults(String player1name, int player1score, String player2name, int player2score) { //once a player wins, they are notified
+private static void printPigResults(String player1name, int player1score, String player2name, int player2score) { //once a player wins, they are notified
   System.out.println(); //page break
   
   if (player1score > player2score) {
@@ -41,19 +43,9 @@ public static void play() {
   }
  }
 
- private static void printCurrentScore(String player1name, int player1score, String player2name, int player2score) { //updates players on their scores
+private static void printCurrentScore(String player1name, int player1score, String player2name, int player2score) { //updates players on their scores
  System.out.println("\n"+player1name+" has "+player1score+" points so far");
  System.out.println(player2name+" has "+player2score+" points so far");
- }
- 
- private static String promptPlayerOneName () {
-  System.out.println("\nEnter player one's name");
-  return s.nextLine();
- }
- 
- private static String promptPlayerTwoName () {
-  System.out.println("\nEnter player two's name");
-  return s.nextLine();
  }
  
  private static int playerTurn(String playerName) {
@@ -88,4 +80,20 @@ public static void play() {
   System.out.println("\n"+playerName+ " finished the turn with "+ turnScore);
    return turnScore;     
   } 
+
+private static void playAgain() {
+	  System.out.println("Do you want to play again [y/n]?");
+	  String response = s.nextLine();
+	  while(!response.equalsIgnoreCase("y") && !response.equalsIgnoreCase("n")) { //makes it so only yes or no can be responses
+	   System.out.println("Do you want to play again [y/n]?");
+	   response = s.nextLine();   
+	   }
+	  
+	  if(response.equalsIgnoreCase("y")) {
+		  play();
+	  }
+	  else {
+		 System.out.println("Thank you for playing!");
+	   }
+	  } 
 }
